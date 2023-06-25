@@ -1,0 +1,13 @@
+{
+	"name": "be-basic-html-css-fcp",
+	"course": "Basic Frontend Web Development With HTML \u0026 CSS",
+	"title": "BASIC BE HTML CSS - FCP",
+	"order": 3,
+	"topics": null,
+	"image": "jest-html-css",
+	"command": "npm run test",
+	"totalTestCase": 6,
+	"metadata": {
+		"type": "assignment"
+	}
+}

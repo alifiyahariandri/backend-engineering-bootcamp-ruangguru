@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Alifiyah's CV</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <nav class="flex justify-between py-4 shadow-md shadow-black/5 bg-pink-100 dark:bg-stone-800 dark:shadow-black/10">
+            <div>
+
+            </div>
+            <div>
+                <a class="p-4 text-pink-100 hover:bg-stone-900 hover:rounded-xl" href="#about">About</a>
+                <a class="p-4 text-pink-100 hover:bg-stone-900 hover:rounded-xl" href="#contact">Contact</a>
+            </div>
+        </nav>
+        <section class="bg-pink-200 dark:bg-stone-900">
+            <div class="pt-20 container flex lg:justify-between lg:ml-10 md:flex-wrap lg:flex-nowrap md:justify-center">
+                <div class="mt-20 pt-15 lg:pl-20 md:text-center lg:text-start md:pl-1">
+                    <h2 class="text-pink-100 text-2xl mb-3">Hello, I am</h2>
+                    <h1 class="text-white mb-9 text-5xl">Alifiyah Nur Rochmah Ariandri</h1>
+                    <a href="#about" class="bg-pink-100 p-3 px-5 rounded-xl hover:bg-pink-200">About Me</a>
+                </div>
+                <div class="pt-20">
+                    <img id="foto" src="Foto.png" height="400">
+                </div>
+            </div>
+        </section>
+    
+        <section id="about">
+            <div class="container m-20">
+                <div id="about-me">
+                    <h3 class="font-semibold">About Me</h3>
+                    <p class="pb-5">A student of Information System at the University of Indonesia in 2020. My skills include but are not limited to: UI / UX design, user experience (UX) research, systems analysis and project management. A fast learner who can easily adapt to new environments. Familiar and very interested in technology and looking for new opportunities in this field, especially UI, UX and project management.</p>
+                </div>
+                <div id="history">
+                    <img id="garis" src="Garis2.png" height="50">
+                    <h3 class="pt-5 font-semibold">Education</h3>
+
+                    <div class="flex lg:flex-nowrap md:flex-wrap">
+                        <div class="block max-w-md rounded-lg bg-white p-6 shadow-lg dark:bg-red-50 mx-5 mt-2">
+                            <h4 class="font-semibold">
+                                Universitas Indonesia
+                            </h4>
+                            <p>
+                                GPA (5th semester): 3.90 / 4.00 
+                            </p>
+                            <p>
+                                Activities: 
+                                <li>Teaching Assistant</li>
+                                <li>Vice Project Officer II of BETIS Fasilkom UI 2022</li>
+                                <li>Staff of Creative and Documentation at BETIS Fasilkom UI 2021</li>
+                                <li>Staff of IT and Design of OKK UI 2021</li>
+                                <li>HRD of Software Engineering Academy Compfest 13</li>
+                                <li>Vice Person in Charge of Media Partner Compfest 14</li>
+                                <li>Staff of Social Service Department of BEM Fasilkom UI 2021</li>
+                                <li>Staff of Internal Control Unit of BEM Fasilkom UI 2022</li>
+                            </p>
+                        </div>
+                        <div class="block max-w-md rounded-lg bg-white p-6 shadow-lg dark:bg-red-50 mx-5 mt-2">
+                            <h4 class="font-semibold">
+                                SMA Negeri 5 Surabaya
+                            </h4>
+                            <p>
+                                Final Grade: 93 / 100
+                            </p>
+                            <p>
+                                Activities: 
+                                <li>President of PMR SMA Negeri 5 Surabaya 2019-2020</li>
+                                <li>Vice Project Officer I of LDKMS V 2019</li> 
+                                <li>Head of Liason Officer Division of S2LC 2019</li>
+                                <li>Head of Business Development Division of Senyuman 2018</li>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+
+        </section>
+        <section id="contact" class="bg-red-100">
+            <div class="container py-20 mx-20">
+                <div id="logo">
+                    <h3>Contact</h3>
+                    <br>
+                    <a href="https://instagram.com/alifiyahariandri" class="p-3 px-4 bg-white rounded-xl hover:bg-stone-200">Instagram</a>
+                    <a href="https://www.linkedin.com/in/alifiyahariandri/" class="p-3 px-4 bg-white rounded-xl hover:bg-stone-200">Linkedin</a>
+                </div>
+                <div>
+                    <br><br>
+                    <h3>Send me a mail (alifiyahariandri@gmail.com):</h3>    
+                    <form action="mailto:alifiyahariandri@gmail.com" method="post" enctype="text/plain" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+                        Name:
+                    </label>
+                    <input name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Name"><br>
+                    <br>
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                        E-mail:
+                    </label>
+                    <input name="email" type="text" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="text" placeholder="E-mail"><br>
+                    <br>
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="comment">
+                        Comment:
+                    </label>
+                    <input name="email" type="text" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="comment" type="text" placeholder="Comment"><br><br>
+                    <input type="submit" value="Send" class="bg-stone-200 px-4 py-2 hover:bg-stone-300">
+                    <input type="reset" value="Reset" class="bg-stone-200 px-4 py-2 hover:bg-stone-300"">
+    
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </section>
+        <footer class="text-center">
+            <p>alifiyahariandri</p>
+        </footer>
+    
+    </body>
+</html>
